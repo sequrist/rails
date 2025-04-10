@@ -1,0 +1,38 @@
+he:
+  errors:
+    # The default format to use in full error messages.
+    format: "%{attribute} %{message}"
+
+    # The values :model, :attribute and :value are always available for interpolation
+    # The value :count is available when applicable. Can be used for pluralization.
+    messages:
+      model_invalid: 'האימות נכשל: %{errors}'
+      inclusion: לא כלול ברשימה
+      exclusion: שמור
+      invalid: לא חוקי
+      confirmation: לא תואם את %{attribute}
+      accepted: חייב להיות מאושר
+      empty: לא יכול להיות ריק
+      blank: לא יכול להיות ריק
+      present: חייב להיות ריק
+      too_long:
+        one: ארוך מדי (המקסימום הוא תו אחד)
+        other: ארוך מדי (המקסימום הוא %{count} תווים)
+      password_too_long: ארוך מדי
+      too_short:
+        one: קצר מדי (המינימום הוא תו אחד)
+        other: קצר מדי (המינימום הוא %{count} תווים)
+      wrong_length:
+        one: באורך לא נכון (צריך להיות תו אחד)
+        other: באורך לא נכון (צריך להיות %{count} תווים)
+      not_a_number: לא מספר
+      not_an_integer: חייב להיות מספר שלם
+      greater_than: חייב להיות גדול מ-%{count}
+      greater_than_or_equal_to: חייב להיות גדול או שווה ל-%{count}
+      equal_to: חייב להיות שווה ל-%{count}
+      less_than: חייב להיות קטן מ-%{count}
+      less_than_or_equal_to: חייב להיות קטן או שווה ל-%{count}
+      other_than: חייב להיות שונה מ-%{count}
+      in: חייב להיות ב-%{count}
+      odd: חייב להיות אי-זוגי
+      even: חייב להיות זוגי
