@@ -1,0 +1,38 @@
+it:
+  errors:
+    # The default format to use in full error messages.
+    format: "%{attribute} %{message}"
+
+    # The values :model, :attribute and :value are always available for interpolation
+    # The value :count is available when applicable. Can be used for pluralization.
+    messages:
+      model_invalid: 'Convalida fallita: %{errors}'
+      inclusion: non è incluso nella lista
+      exclusion: è riservato
+      invalid: non è valido
+      confirmation: non corrisponde a %{attribute}
+      accepted: deve essere accettato
+      empty: non può essere vuoto
+      blank: non può essere lasciato in bianco
+      present: deve essere vuoto
+      too_long:
+        one: è troppo lungo (massimo 1 carattere)
+        other: è troppo lungo (massimo %{count} caratteri)
+      password_too_long: è troppo lungo
+      too_short:
+        one: è troppo corto (minimo 1 carattere)
+        other: è troppo corto (minimo %{count} caratteri)
+      wrong_length:
+        one: ha una lunghezza errata (dovrebbe essere 1 carattere)
+        other: ha una lunghezza errata (dovrebbe essere %{count} caratteri)
+      not_a_number: non è un numero
+      not_an_integer: deve essere un integer
+      greater_than: deve essere maggiore di %{count}
+      greater_than_or_equal_to: deve essere maggiore o uguale a %{count}
+      equal_to: deve essere uguale a %{count}
+      less_than: deve essere minore di %{count}
+      less_than_or_equal_to: deve essere minore o uguale a %{count}
+      other_than: deve essere diverso da %{count}
+      in: deve essere in %{count}
+      odd: deve essere dispari
+      even: deve essere pari
